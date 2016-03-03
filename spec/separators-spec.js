@@ -10,7 +10,7 @@ describe('thousands_separators', function() {
 
   it('should print correct text', function() {
     var input = 10000000;
-    var expectText = '10,000,000';
+    var expectText = '10000,000';
     expect(thousands_separators(input)).toBe(expectText);
   });
 
